@@ -1,0 +1,32 @@
+body {
+    display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#content {
+    flex: 1;
+}
+
+footer {
+    border-top: 1px solid #fedeff;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Suranna', serif;
+    color: #666;
+}
+
+#copy {
+    font-size: .85em;
+}
+
+#credit {
+    font-size: .7em;
+    margin-top: 0;
+}
+
+#facebook {
+    max-height: 30px;
+}
