@@ -12,7 +12,7 @@ header,
 
 .pagetitle {
     align-self: center;
-    font-family: 'Suranna', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .nav {
@@ -26,13 +26,13 @@ ul {
 
 .nav a {
     color: #444;
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
     list-style: none;
     display: block;
     font-size: 1.125em;
     text-align: center;
     padding: .4em;
-    border-bottom: 1px solid #ebecec;
 }
 
 .nav a:visited {
@@ -41,7 +41,8 @@ ul {
 
 .nav a:hover {
     color: 0b0b0b;
-    border-bottom-color: #52bab3;
+    background: #fedeff;
+    border-radius: 4px 4px 0 0;
 }
 
 
